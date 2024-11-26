@@ -1,6 +1,6 @@
 %% ElectionModel simulates the election model from Section 8.3, for selected parameters.
 
-%% Parameters:
+%% Parameters:a
 hR = 2^-5;  % Initial step size for the Wiener processes.
 d1 = 0.1; d2 = 0.2; % Time delays.
 X0 = [0.5;0];   % Initial popularity and initial expense.
