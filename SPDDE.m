@@ -1,4 +1,4 @@
-%% ElectionModel simulates the delayed stochastic heat equation with cooling, from Section 8.5, for selected parameters.
+%% SPDDE simulates the delayed stochastic heat equation with cooling, from Section 8.5, for selected parameters.
 
 for delay = 0:1 % Leave this line as is. It simulates a non-delayed and also a delayed solution.
 
