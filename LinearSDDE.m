@@ -1016,7 +1016,7 @@ for Ti = 1:T
     end
     axis([log(dt)/log(2),log(1)/log(2),axisbounds(1,Ti)-0.5,axisbounds(2,Ti)+0.25])
     ylabel('$\log_{10}\left(\mathbf{E}\left|Y_n-X(t)\right|^2\right)^{1/2}$','Interpreter','latex','FontSize',16)
-    title(['Approximated MS Strong Errors ','($t=$ ',num2str(Ti),')'],'Interpreter','latex','FontSize',16)
+    title(['MS Strong Errors ','($t=$ ',num2str(Ti),')'],'Interpreter','latex','FontSize',16)
     set(gcf,'position',[200,75,700,500])
     grid on
     a = get(gca,'XTickLabel');
